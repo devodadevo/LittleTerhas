@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Content Creator's Haven</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+        .header {
+            background-color: #6a5acd;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .main {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #6a5acd;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery img {
+            max-width: 30%;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #6a5acd;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to the Creative Realm</h1>
+        <p>Discover the Intersection of Impressionism and Modern Esque</p>
+    </div>
+
+    <div class="main">
+        <h2>About Me</h2>
+        <p>A journey through art, creativity, and personal expression.</p>
+
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <!-- Images can be added here -->
+            <img src="image1.jpg" alt="Artwork 1">
+            <img src="image2.jpg" alt="Artwork 2">
+            <img src="image3.jpg" alt="Artwork 3">
+        </div>
+
+        <h2>Connect with Me</h2>
+        <p>Feel free to reach out for collaborations or just to say hi!</p>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>Follow me on <a href="#">Social Media</a></p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 Content Creator's Haven</p>
+    </div>
+</body>
+</html>
